@@ -38,7 +38,7 @@ namespace matrixSum
             {
                 for (int j = 0; j < colNo; j++)
                 {
-                    array[i, j] = rnd.Next(0, 10);
+                    array[i, j] = rnd.Next(1, 10);
                 }
             }
         }
